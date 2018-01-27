@@ -1,8 +1,12 @@
 # React Native Navigation
 
 ## Native Navigation
-- iOS
-- Android
+
+### iOS
+- Tabs
+
+### Android
+- Drawer
 
 **Platforms is diffirent**
 
@@ -15,28 +19,17 @@
 
 ## JavaScript Based solutions
 One worth to mention:
-[react-router-native](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-native) - Nice and tidy, but not native
+- [react-router-native](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-native) - Nice and tidy, but not native
 
 **Is good but not native. Transitions is lost.**
 
-## Native Based solutions:
-Past:
-* [react-native-router-flux](https://github.com/aksonov/react-native-router-flux) - Wrapper around NavigationExperimental which is deprecated. Based on old version. Not much customizable.
+## Native Based solutions
+### Past
+- [react-native-router-flux](https://github.com/aksonov/react-native-router-flux) - Wrapper around NavigationExperimental which is deprecated. Based on old version. Not much customizable.
 
-Present:
-[react-native-navigation](https://wix.github.io/react-native-navigation) - Implemented natively, with exposed API. So it's fast. v2.0.1937 but not ready. Not easy to install.
-[native-navigation](http://airbnb.io/native-navigation/) - AirBnb. Also Native. (Hard to install)
-[react-navigation](https://reactnavigation.org/) - It's (almost) official. Installs easily.
+### Present
+- [react-native-navigation](https://wix.github.io/react-native-navigation) - Implemented natively, with exposed API. So it's fast. v2.0.1937 but not ready. Not easy to install.
+- [native-navigation](http://airbnb.io/native-navigation/) - AirBnb. Also Native. (Hard to install)
+- [react-navigation](https://reactnavigation.org/) - It's (almost) official. Installs easily.
 
-## Web Navigation
-
-## Web Based RN navigation
-
-## Native Navigation
-
-### iOS
-### Android
-
-## Native Based Navigation
-
-
+**They are many**
