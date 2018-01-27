@@ -1,0 +1,12 @@
+{
+  "name": "present-react-native-navigation",
+  "version": "1.0.0",
+  "main": "app.js",
+  "description": "",
+  "scripts": {
+    "start": "node ./presentation/app"
+  },
+  "dependencies": {
+    "presentation": "./presentation"
+  }
+}

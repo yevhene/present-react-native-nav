@@ -1,0 +1,15 @@
+{
+  "name": "present-react-native-navigation.presentation",
+  "version": "1.0.0",
+  "main": "app.js",
+  "description": "Presentation",
+  "scripts": {
+    "start": "node ./app"
+  },
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "~4.14.0",
+    "express-ejs-layouts": "^2.3.1",
+    "glob": "^7.1.2"
+  }
+}
