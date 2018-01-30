@@ -1,4 +1,4 @@
-# Present React Native Navigation
+# Present React Native Nav
 
 ## Setup
 
