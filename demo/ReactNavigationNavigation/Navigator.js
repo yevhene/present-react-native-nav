@@ -5,8 +5,12 @@ import StudentIndex from './student/Index'
 import StudentShow from './student/Show'
 
 export default StackNavigator({
-  StudentIndex: { screen: StudentIndex },
-  StudentShow: { screen: StudentShow }
+  StudentIndex: {
+    screen: StudentIndex
+  },
+  StudentShow: {
+    screen: StudentShow
+  }
 }, {
   initialRouteName: 'StudentIndex'
 })

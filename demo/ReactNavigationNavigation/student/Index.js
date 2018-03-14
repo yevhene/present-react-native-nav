@@ -1,11 +1,11 @@
 import React from 'react'
 import { List, ListItem } from 'react-native-elements'
-import { StyleSheet } from 'react-native'
+import { StyleSheet, View } from 'react-native'
 
 import students from '../data/students'
 
-export default ({ navigation }) =>
-  <List containerStyle={styles.container}>
+const StudentIndex = ({ navigation }) =>
+  <List style={styles.list}>
     {
       students.map((student, i) => (
         <ListItem
@@ -20,9 +20,14 @@ export default ({ navigation }) =>
     }
   </List>
 
+StudentIndex.navigationOptions = {
+  title: 'Students'
+}
+
 const styles = StyleSheet.create({
-  container: {
-    marginBottom: 20,
-    height: 100
+  list: {
+    flex: 1
   }
-});
+})
+
+export default StudentIndex
