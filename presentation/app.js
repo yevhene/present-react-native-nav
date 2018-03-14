@@ -16,7 +16,7 @@ app.use(express.static(path.join(__dirname, 'static')));
 
 app.get('/', (req, res) => res.render('content'));
 
-app.use(express.static(path.join(__dirname, 'content', 'assets')));
+app.use(express.static(path.join(__dirname, 'images')));
 
 const port = process.env.PORT || 3000;
 
