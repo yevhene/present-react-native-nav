@@ -7,8 +7,6 @@
     "start": "node ./presentation/app"
   },
   "dependencies": {
-    "presentation": "./presentation",
-    "react-native-elements": "^1.0.0-beta2",
-    "react-navigation": "^1.2.1"
+    "presentation": "./presentation"
   }
 }

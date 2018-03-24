@@ -1,7 +1,7 @@
 import React from 'react'
 import { StatusBar, StyleSheet, View } from 'react-native'
 
-import Navigator from './Navigator'
+import Navigator from './navigation/Navigator'
 
 export default class App extends React.Component {
   render() {
@@ -16,7 +16,6 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: 'red'
+    flex: 1
   }
 })

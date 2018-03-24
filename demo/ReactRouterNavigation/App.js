@@ -2,8 +2,8 @@ import React from 'react'
 import { StatusBar, View } from 'react-native'
 import { NativeRouter, Route, Switch } from 'react-router-native'
 
-import StudentIndex from './student/Index'
-import StudentShow from './student/Show'
+import StudentsIndex from './students/Index'
+import StudentsShow from './students/Show'
 
 export default class App extends React.Component {
   render() {
@@ -12,8 +12,8 @@ export default class App extends React.Component {
         <StatusBar barStyle="dark-content" />
         <NativeRouter>
           <Switch>
-            <Route exact path="/" component={StudentIndex} />
-            <Route path="/students/:id" component={StudentShow}/>
+            <Route exact path="/" component={StudentsIndex} />
+            <Route path="/students/:id" component={StudentsShow}/>
           </Switch>
         </NativeRouter>
       </View>

@@ -2,7 +2,7 @@ import React from 'react'
 import { List, ListItem } from 'react-native-elements'
 import { Link } from 'react-router-native'
 
-import students from '../data/students'
+import students from 'data/students'
 
 export default () =>
   <List>
@@ -11,7 +11,7 @@ export default () =>
         <Link to={`/students/${i}`} key={i}>
           <ListItem
             roundAvatar
-            avatar={{uri:student.photo}}
+            avatar={student.photo}
             title={student.name}
             subtitle={student.group}
           />
