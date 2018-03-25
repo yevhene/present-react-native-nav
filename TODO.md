@@ -1,8 +1,6 @@
 - gifs
 - native demo
-- logos
 - stories
   - intro
   - NavigatorIOS titanium
 - long story wix/airbnb
-- no capitalize
