@@ -1,7 +1,7 @@
 import React from 'react'
 import { StatusBar, StyleSheet, View } from 'react-native'
 
-import Navigator from './navigation/Navigator'
+import Navigator from './Navigator'
 
 export default class App extends React.Component {
   render() {
