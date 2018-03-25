@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from 'react-native'
 import { Icon } from 'react-native-elements'
 import { DrawerNavigator } from 'react-navigation'
 

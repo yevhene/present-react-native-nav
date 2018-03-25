@@ -1,7 +1,6 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { StyleSheet, View } from 'react-native'
-import { Avatar, Button, Text } from 'react-native-elements'
+import { Avatar, Text } from 'react-native-elements'
 
 import students from 'data/students'
 
@@ -21,6 +20,10 @@ const StudentsShow = ({ navigation }) => {
       <Text h4>{student.group}</Text>
     </View>
   )
+}
+
+StudentsShow.navigationOptions = {
+  title: 'Студент'
 }
 
 const styles = StyleSheet.create({

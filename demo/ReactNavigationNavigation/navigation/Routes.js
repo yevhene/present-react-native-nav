@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from 'react-native'
 import { StackNavigator } from 'react-navigation'
 
 import CoursesIndex from '../courses/Index'
@@ -9,10 +8,7 @@ import StudentsShow from '../students/Show'
 
 const CoursesStack = StackNavigator({
   CoursesIndex: {
-    screen: CoursesIndex,
-    navigationOptions: {
-      title: 'Курси'
-    }
+    screen: CoursesIndex
   }
 }, {
   initialRouteName: 'CoursesIndex'
@@ -20,16 +16,10 @@ const CoursesStack = StackNavigator({
 
 const StudentsStack = StackNavigator({
   StudentsIndex: {
-    screen: StudentsIndex,
-    navigationOptions: {
-      title: 'Студенти'
-    }
+    screen: StudentsIndex
   },
   StudentsShow: {
-    screen: StudentsShow,
-    navigationOptions: {
-      title: 'Студент'
-    }
+    screen: StudentsShow
   }
 }, {
   initialRouteName: 'StudentsIndex',

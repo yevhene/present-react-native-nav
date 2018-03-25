@@ -1,6 +1,6 @@
 import React from 'react'
 import { List, ListItem } from 'react-native-elements'
-import { ScrollView, StyleSheet, View } from 'react-native'
+import { ScrollView, StyleSheet } from 'react-native'
 
 import courses from 'data/courses'
 
@@ -21,6 +21,10 @@ const CoursesIndex = () =>
       }
     </List>
   </ScrollView>
+
+CoursesIndex.navigationOptions = {
+  title: 'Курси'
+}
 
 const styles = StyleSheet.create({
   list: {

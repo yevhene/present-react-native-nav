@@ -1,6 +1,6 @@
 import React from 'react'
-import { List, ListItem, Button } from 'react-native-elements'
-import { ScrollView, StyleSheet, View } from 'react-native'
+import { List, ListItem } from 'react-native-elements'
+import { ScrollView, StyleSheet } from 'react-native'
 
 import students from 'data/students'
 
