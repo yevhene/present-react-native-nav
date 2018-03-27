@@ -1,3 +1,10 @@
+<section
+  data-background-image="banner.jpg"
+  data-background-position="center"
+  data-background-size="contain"
+>
+</section>
+
 <section>
   <h1>React Native Navigation</h1>
   <h2>The State of Art</h2>
@@ -173,6 +180,19 @@
   </section>
 
   <section>
+    <h3>Code</h3>
+
+    <pre><code class="hljs" data-trim contenteditable>
+&lt;NativeRouter&gt;
+  &lt;Switch&gt;
+    &lt;Route exact path="/" component={StudentsIndex} /&gt;
+    &lt;Route path="/students/:id" component={StudentsShow}/&gt;
+  &lt;/Switch&gt;
+&lt;/NativeRouter&gt;
+    </code></pre>
+  </section>
+
+  <section>
     <h3>Example</h3>
 
     <div>
@@ -297,6 +317,26 @@
   </section>
 
   <section>
+    <h3>StackNavigator (Code)</h3>
+
+    <pre><code class="hljs" data-trim contenteditable>
+const Courses = StackNavigator({
+  CoursesIndex: {
+    screen: CoursesIndex,
+    navigationOptions: {
+      title: 'Курси'
+    }
+  }
+})
+
+const Students = StackNavigator({
+  StudentsIndex: { screen: StudentsIndex },
+  StudentsShow: { screen: StudentsShow }
+})
+    </code></pre>
+  </section>
+
+  <section>
     <h3>TabsNavigator</h3>
 
     <div>
@@ -305,7 +345,57 @@
   </section>
 
   <section>
+    <h3>TabsNavigator (Code)</h3>
+
+    <pre><code class="hljs" data-trim contenteditable>
+const Tabs = TabNavigator({
+  Students: {
+    screen: Students,
+    navigationOptions: {
+      title: 'Студенти',
+      tabBarIcon: ({ tintColor, focused }) =&gt; (
+        &lt;Icon
+          name={focused ? 'people' : 'people-outline'}
+          color={tintColor}
+        /&gt;
+      )
+    }
+  },
+  Courses: {
+    ...
+  }
+})
+    </code></pre>
+  </section>
+
+  <section>
     <h3>DrawerNavigator</h3>
+
+      <img src="react-navigation-drawer-demo.gif" />
+  </section>
+
+  <section>
+    <h3>DrawerNavigator (Code)</h3>
+
+    <pre><code class="hljs" data-trim contenteditable>
+const Tabs = DrawerNavigator({
+  Students: {
+    screen: Students,
+    navigationOptions: {
+      title: 'Студенти',
+      drawerIcon: ({ tintColor, focused }) =&gt; (
+        &lt;Icon
+          name={focused ? 'people' : 'people-outline'}
+          color={tintColor}
+        /&gt;
+      )
+    }
+  },
+  Courses: {
+    ...
+  }
+})
+    </code></pre>
   </section>
 
   <section>
@@ -314,6 +404,19 @@
     <div>
       <img src="react-navigation-switch-demo.gif" />
     </div>
+  </section>
+
+  <section>
+    <h3>SwitchNavigator (Code)</h3>
+
+    <pre><code class="hljs" data-trim contenteditable>
+const Main = SwitchNavigator({
+  Login: { screen: SessionsCreate },
+  Drawer: { screen: Drawer }
+}, {
+  initialRouteName: 'Drawer'
+})
+    </code></pre>
   </section>
 
   <section>

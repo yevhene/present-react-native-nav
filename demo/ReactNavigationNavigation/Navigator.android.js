@@ -29,7 +29,7 @@ const Students = StackNavigator({
   StudentsShow: { screen: StudentsShow }
 })
 
-const Tabs = DrawerNavigator({
+const Drawer = DrawerNavigator({
   Students: {
     screen: Students,
     navigationOptions: {
@@ -70,9 +70,9 @@ const Tabs = DrawerNavigator({
 
 const Main = SwitchNavigator({
   Login: { screen: SessionsCreate },
-  Tabs: { screen: Tabs }
+  Drawer: { screen: Drawer }
 }, {
-  initialRouteName: 'Tabs'
+  initialRouteName: 'Drawer'
 })
 
 export default Main
