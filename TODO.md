@@ -3,4 +3,12 @@
   - intro
   - NavigatorIOS titanium
 - long story wix/airbnb
-- ract-router
+- react-router (without native)
+- native-based deep-link (?)
+- native/not native (recheck)
+- react navigation: separation of concerns
+- intresting demo
+  - nested stacks
+- announce
+- bigger gifs
+- pdf
