@@ -11,7 +11,6 @@ Navigation is a key point, which distinguishes mobile platform among others. And
 - long story wix/airbnb
 - react-router (without native)
 - native-based deep-link (?)
-- native/not native (recheck)
 - react navigation: separation of concerns
 - intresting demo
   - nested stacks
