@@ -8,7 +8,6 @@ Navigation is a key point, which distinguishes mobile platform among others. And
 
 # TODO
 - native demo
-- long story wix/airbnb
 - react navigation: separation of concerns
 - intresting demo
   - nested stacks
