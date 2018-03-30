@@ -1,0 +1,40 @@
+code {
+  font-size: 21px !important;
+}
+
+iframe {
+  width: 320px;
+  height: 240px;
+}
+
+dl {
+  display: block !important;
+}
+
+img {
+  background-color: transparent !important;
+  border: 0 !important;
+  max-height: 45vh !important;
+  box-shadow: none !important;
+}
+
+img.qr {
+  height: 45vh;
+  border: 4px white solid !important;
+}
+
+img.mobile-gif {
+  max-height: 80vh !important;
+}
+
+.reveal {
+  font-size: 36px !important;
+}
+
+a i {
+  opacity: 0.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: none !important;
+}

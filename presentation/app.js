@@ -14,7 +14,9 @@ app.set('layout', path.join(__dirname, 'layouts/layout'));
 
 app.use(express.static(path.join(__dirname, 'static')));
 
-app.get('/', (req, res) => res.render('content'));
+app.get('/', (req, res) => res.render('content', {
+  white: 'white' in req.query
+}));
 
 app.use(express.static(path.join(__dirname, 'images')));
 
