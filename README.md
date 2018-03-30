@@ -5,12 +5,12 @@ Navigation is a key point, which distinguishes mobile platform among others. And
 
 ### Setup
 
-```javascript
+```bash
 yarn
 ```
 
 ### Start
 
-```javascript
+```bash
 yarn start
 ```
