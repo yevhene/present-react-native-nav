@@ -17,11 +17,18 @@
 </section>
 
 <section>
+  <h2>Expo</h2>
+
+  <p>Setup Expo Client please in order to try Demo.</p>
+</section>
+
+<section>
   <h1>About</h1>
 
   <ul>
     <li>Me</li>
     <li>Case</li>
+    <li>Reasons</li>
   </ul>
 </section>
 
@@ -248,11 +255,6 @@
   </section>
 
   <section>
-    <img src="react-native-navigation-ios-demo.gif" class="mobile-gif" />
-    <img src="react-native-navigation-android-demo.gif" class="mobile-gif" />
-  </section>
-
-  <section>
     <h3>Installation</h3>
 
     <ul>
@@ -261,6 +263,17 @@
     </ul>
 
     <p>Is hard.</p>
+  </section>
+
+  <section>
+    <h3>I just wanted to make demo</h3>
+
+    <img src="jackie.jpg" />
+  </section>
+
+  <section>
+    <img src="react-native-navigation-ios-demo.gif" class="mobile-gif" />
+    <img src="react-native-navigation-android-demo.gif" class="mobile-gif" />
   </section>
 
   <section>
@@ -312,12 +325,12 @@ Navigation.registerComponent('StudentsIndex', () =&gt; StudentsIndex)
 </section>
 
 <section>
-  <h2>Native Based solutions</h2>
+  <h2>Native based solutions</h2>
 
   <section>
     <ul>
-      <li><b>+</b> Native</li>
       <li><b>+</b> Fast</li>
+      <li><b>+</b> Native UI/UX</li>
       <li><b>-</b> Hard to integrate</li>
       <li><b>-</b> Harder to support</li>
       <li><b>-</b> Not compatible with create-react-native-app and expo</li>
@@ -472,9 +485,9 @@ const Tabs = DrawerNavigator({
     <pre><code class="hljs" data-trim contenteditable>
 const Main = SwitchNavigator({
   Login: { screen: SessionsCreate },
-  Drawer: { screen: Drawer }
+  Tabs: { screen: Tabs }
 }, {
-  initialRouteName: 'Drawer'
+  initialRouteName: 'Tabs'
 })
     </code></pre>
   </section>
