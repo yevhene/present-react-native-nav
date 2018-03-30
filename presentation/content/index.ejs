@@ -150,7 +150,7 @@
 </section>
 
 <section>
-  <h2>Platform agnostic solution</h2>
+  <h2>Web-oriented solution</h2>
 </section>
 
 <section>
@@ -179,6 +179,12 @@
   </section>
 
   <section>
+    <div>
+      <img src="react-router-demo.gif" class="mobile-gif" />
+    </div>
+  </section>
+
+  <section>
     <h3>Code</h3>
 
     <pre><code class="hljs" data-trim contenteditable>
@@ -189,12 +195,6 @@
   &lt;/Switch&gt;
 &lt;/NativeRouter&gt;
     </code></pre>
-  </section>
-
-  <section>
-    <div>
-      <img src="react-router-demo.gif" class="mobile-gif" />
-    </div>
   </section>
 
   <section>
@@ -238,6 +238,11 @@
   </section>
 
   <section>
+    <img src="react-native-navigation-ios-demo.gif" class="mobile-gif" />
+    <img src="react-native-navigation-android-demo.gif" class="mobile-gif" />
+  </section>
+
+  <section>
     <h3>Installation</h3>
 
     <ul>
@@ -249,8 +254,33 @@
   </section>
 
   <section>
-    <img src="react-native-navigation-ios-demo.gif" class="mobile-gif" />
-    <img src="react-native-navigation-android-demo.gif" class="mobile-gif" />
+    <h3>Register</h3>
+
+    <pre><code class="hljs" data-trim contenteditable>
+Navigation.registerComponent('StudentsIndex', () =&gt; StudentsIndex)
+    </code></pre>
+  </section>
+
+  <section>
+    <h3>Start</h3>
+
+    <pre><code class="hljs" data-trim contenteditable>
+Navigation.startTabBasedApp({
+  tabs: [{
+    label: 'Студенти',
+    screen: 'StudentsIndex',
+    icon: this.icons.peopleOutline,
+    selectedIcon: this.icons.people,
+    title: 'Студенти'
+  }, {
+    label: 'Курси',
+    screen: 'CoursesIndex',
+    icon: this.icons.labelOutline,
+    selectedIcon: this.icons.label,
+    title: 'Курси'
+  }]
+})
+    </code></pre>
   </section>
 
   <section>
@@ -297,25 +327,27 @@
 <section>
   <h2>react-navigation</h2>
 
-  <div>
-    <img src="react-navigation-logo.svg" />
-  </div>
+  <section>
+    <div>
+      <img src="react-navigation-logo.svg" />
+    </div>
 
-  <div>
-    <a href="https://reactnavigation.org/"><i>https://</i><b>reactnavigation.org</b></a>
-  </div>
-</section>
+    <div>
+      <a href="https://reactnavigation.org/"><i>https://</i><b>reactnavigation.org</b></a>
+    </div>
+  </section>
 
-<section>
-  <h2>Demo</h2>
+  <section>
+    <h3>Demo</h3>
 
-  <div>
-    <img class="qr" src="react-navigation-qr.png" />
-  </div>
+    <div>
+      <img class="qr" src="react-navigation-qr.png" />
+    </div>
 
-  <div>
-    <a href="https://expo.io/@yevhene/reactnavigationnavigation"><i>https://expo.io/</i><b>@yevhene/reactnavigationnavigation</b></a>
-  </div>
+    <div>
+      <a href="https://expo.io/@yevhene/reactnavigationnavigation"><i>https://expo.io/</i><b>@yevhene/reactnavigationnavigation</b></a>
+    </div>
+  </section>
 </section>
 
 <section>
