@@ -1,6 +1,7 @@
 # Remind
 - stories
   - Intro
+  - react-router for migration
   - NavigatorIOS Titanium
 - points
   - Word recombination

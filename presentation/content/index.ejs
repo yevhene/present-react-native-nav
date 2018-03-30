@@ -204,17 +204,27 @@
   </section>
 
   <section>
+    <h3>Experimental</h3>
+
+    <ul>
+      <li>StackRoute</li>
+      <li>TabRoutes</li>
+    </ul>
+  </section>
+
+  <section>
     <ul>
       <li><b>+</b> Easy to migrate from Web</li>
-      <li><b>-</b> No animations</li>
       <li><b>-</b> No controls</li>
+      <li><b>-</b> No animations (yet)</li>
+      <li><b>-</b> No stacks/tabs (yet)</li>
     </ul>
   </section>
 
   <section>
     <h3>Summary</h3>
 
-    <h4>Good for fast development, but UX is not good enough</h4>
+    <h4>Good for fast migration, but UX is not good enough</h4>
   </section>
 </section>
 
@@ -254,14 +264,6 @@
   </section>
 
   <section>
-    <h3>Register</h3>
-
-    <pre><code class="hljs" data-trim contenteditable>
-Navigation.registerComponent('StudentsIndex', () =&gt; StudentsIndex)
-    </code></pre>
-  </section>
-
-  <section>
     <h3>Start</h3>
 
     <pre><code class="hljs" data-trim contenteditable>
@@ -280,6 +282,14 @@ Navigation.startTabBasedApp({
     title: 'Курси'
   }]
 })
+    </code></pre>
+  </section>
+
+  <section>
+    <h3>Register</h3>
+
+    <pre><code class="hljs" data-trim contenteditable>
+Navigation.registerComponent('StudentsIndex', () =&gt; StudentsIndex)
     </code></pre>
   </section>
 
@@ -309,6 +319,7 @@ Navigation.startTabBasedApp({
       <li><b>+</b> Native</li>
       <li><b>+</b> Fast</li>
       <li><b>-</b> Hard to integrate</li>
+      <li><b>-</b> Harder to support</li>
       <li><b>-</b> Not compatible with create-react-native-app and expo</li>
     </ul>
   </section>
